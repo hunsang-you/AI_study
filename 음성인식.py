@@ -7,7 +7,7 @@ from scipy.io import wavfile
 from IPython.display import Audio
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Tokenizer
 
-file_name = './녹음.wav'
+file_name = './notebook.wav'
 Audio(file_name)
 
 tokenizer = Wav2Vec2Tokenizer.from_pretrained("facebook/wav2vec2-base-960h")
